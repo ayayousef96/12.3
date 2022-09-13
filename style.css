@@ -1,0 +1,22 @@
+div{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    animation-name: bigbox;
+    animation-duration: 4s;
+}
+    
+
+.box1:hover{
+        background-color: purple;
+}
+    
+
+
+
+div > div{
+    position: relative;
+    justify-content: left;
+    width: 50%;
+    background-color: blue;
+}
